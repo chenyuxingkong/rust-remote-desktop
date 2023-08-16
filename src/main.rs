@@ -1,4 +1,4 @@
-use scrap::{Display, Capturer, Frame};
+use scrap::{Display, Capturer};
 
 
 fn main() {
@@ -8,5 +8,6 @@ fn main() {
     let capturer = Capturer::new(display).expect("TODO: panic message");
     capturer.width();
     capturer.height();
+    println!("scrap How to use?");
     print!("Test");
 }
